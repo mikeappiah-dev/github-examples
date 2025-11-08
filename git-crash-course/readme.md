@@ -22,4 +22,9 @@ git clone https://github.com/mikeappiah-dev/github-examples.git
 
 ## Git config file
 
-- Store global configurations for your local git installation.
+- Store global configurations for your local git installation, such as email, username, editor and more.
+
+
+## Git log
+
+- shows the local repository tree.
