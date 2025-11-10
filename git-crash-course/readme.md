@@ -2,11 +2,17 @@
 
 - There are three ways to clone a repository : HTTPS, SSH, Github CLI.
 
-1. HTTPS:
+1. HTTPS Cloning:
+
 ```sh
 ! Note : you will need credentials for cloning private repos.
 git clone https://github.com/mikeappiah-dev/github-examples.git
+
+> On an isolated editor environment from github, like codespaces, you need to have the credentials of the github account, or a personal access token to push to it.
 ```
+
+2. SSH Cloning:
+
 ## Commits
 
 
