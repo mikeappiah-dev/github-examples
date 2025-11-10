@@ -13,8 +13,9 @@ git clone https://github.com/mikeappiah-dev/github-examples.git
 
 2. SSH Cloning:
 
-## Commits
+just testing this out
 
+## Commits
 
 ## Branches
 
@@ -29,7 +30,6 @@ git clone https://github.com/mikeappiah-dev/github-examples.git
 ## Git config file
 
 - Store global configurations for your local git installation, such as email, username, editor and more.
-
 
 ## Git log
 
