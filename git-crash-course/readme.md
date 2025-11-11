@@ -8,7 +8,7 @@
 ! Note : you will need credentials for cloning private repos.
 git clone https://github.com/mikeappiah-dev/github-examples.git
 
-> On an isolated editor environment from github, like codespaces, you need to have the credentials of the github account, or a personal access token to push to it.
+> On an isolated editor environment from github, unlike codespaces, you need to have the credentials of the github account, or a personal access token to push to it.
 ```
 
 2. SSH Cloning:
@@ -21,9 +21,26 @@ ssh-keygen -t ed25519 -C 'this is my githup cloning ssh key public key'
 git clone git@github.com:mikeappiah-dev/github-examples.git
 ```
 
+3. Github CLI:
+
+```sh  
+gh repo clone mikeappiah-dev/github-examples
+
+```
+
 ## Commits
 
 ## Branches
+
+- list branches
+```sh 
+git branch
+```
+
+- create branch
+```sh 
+git branch 'branch-name'
+```
 
 ## Stashing
 
