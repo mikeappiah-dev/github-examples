@@ -13,7 +13,13 @@ git clone https://github.com/mikeappiah-dev/github-examples.git
 
 2. SSH Cloning:
 
-just testing this out
+```sh  
+! Note : you need an ssh key pair to for this type of cloning
+
+ssh-keygen -t ed25519 -C 'this is my githup cloning ssh key public key'
+
+git clone git@github.com:mikeappiah-dev/github-examples.git
+```
 
 ## Commits
 
